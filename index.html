@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <titleProva</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h1 class="titulo">Evento2.0</h1>
+        <h1 class="titulo">Admin.</h1>
+    </header>
+
+    <table>
+        <thead>
+            <th>Nome do evento</th>
+            <th>Data e Hora</th>
+            <th>Local</th>
+            <th>Num. de convidados</th>
+            <th>Status</th>
+            <th>Editar</th>
+        </thead>
+        <tbody class="tabela" id="tabela">
+
+        </tbody>
+    </table>
+
+    <form class="form" id="form">
+
+        <div class="campo">
+            <label for="nome">Nome do evento :</label>
+            <input type="text" class="nome" id="nome" >
+        </div>
+        <br>
+        <div class="campo">
+            <label for="data">Data e hora :</label>
+            <input type="datetime-local" class="data" id="data">
+        </div>
+        <br>
+        <div class="campo">
+            <label for="local">Local :</label>
+            <input type="text" class="local" id="local" >
+        </div>
+        <br>
+        <div class="campo">
+            <label for="conv">Convidados :</label>
+            <input type="number" class="conv" id="conv" >
+        </div>
+        <br>
+        <div class="campo">
+            <label for="status">Status/pagamento :</label>
+            <input type="text" class="status" id="status" >
+        </div>
+        <br>
+        <ul class="mensagensErro" id="mensagensErro"></ul>
+        <button class="enviar" id="enviar">Enviar</button>
+    </form>
+
+    <div class="valor">
+        <h1 class="subtitulo">Total de eventos</h1>
+        <h2 class="total" id="total">0</h2>
+    </div>
+
+    <script src="assets/js/apagar.js"></script>
+    <script src="assets/js/adicionar.js"></script>
+    
+</body>
+</html>

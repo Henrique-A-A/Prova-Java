@@ -1,0 +1,16 @@
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    background-color: #F0C808;
+    margin: auto;
+    margin-top: 5rem;
+    width: 60%;
+}
+
+.apagar{
+    background-color: red;
+    text-align: center;
+    font-weight: bolder;
+}

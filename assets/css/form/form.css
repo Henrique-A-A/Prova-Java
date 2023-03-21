@@ -1,0 +1,19 @@
+.form{
+    background-color: #F0C808;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+    width: 20rem;
+}
+
+.campo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mensagensErro{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
